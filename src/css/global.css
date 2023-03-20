@@ -1,0 +1,32 @@
+body{
+    background-color: #9cc0fa;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#svg-map{
+    cursor: pointer;
+}
+/*svg é preenchido com fill*/
+#svg-map .circle, #svg-map path{
+    fill: #90ee90;
+}
+
+#svg-map a:hover .circle, #svg-map a:hover path{
+    fill: #78866b !important;
+}
+
+#text{
+    width: 380px;
+    height: auto;
+    text-align: right;
+    color: #000000;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
